@@ -1,0 +1,27 @@
+#include<iostream>// 2 esep
+using namespace std;
+int main() {
+	int   len;
+	//cin >> len;
+ int* a= new int[len];
+ int   lin;
+// cin >> lin;
+ int* b = new int[lin];
+	int sum = 0;
+	int sun = 0;
+	int a[] = { 123 ,146 ,454 ,542, 456 };
+	int b[] = { 100 ,328 ,248 ,689 ,200 };
+	for (int i = 0; i < 5; i++) {
+		sun = sun + a[i];
+		sum = sum + b[i];
+	}
+		if (sun > sum) {
+			cout << sun<<"\n" << "D shengli!!" << endl;
+
+		}
+		else {
+			cout << sum <<"\n" << "S shengli!!" << endl;
+		}
+	
+	return 0;
+}
